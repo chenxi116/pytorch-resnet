@@ -31,3 +31,6 @@ This model is different from what's in pytorch model zoo. Although you can actua
 
 ## Acknowledgement
 A large part of the code is borrowed from [https://github.com/ry/tensorflow-resnet](https://github.com/ry/tensorflow-resnet)
+
+## Performance
+The converted ResNet 101 model achieves top 5 error of 7.30% and top 1 error of 23.85% on ILSVRC12 validation set. The model provided by torchvision achieves top 5 error of 6.43% and top 1 error of 22.68%.
